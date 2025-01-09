@@ -3,9 +3,9 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-data = pd.read_csv("part3-multivariable-linear-regression/Pollution.csv")
+data = pd.read_csv("part3-multivariable-linear-regression/pollution.csv")
 x = data[["miles","age"]].values
-y = data["Price"].values
+y = data["AQI Value"].values
 
 #split the data into training and testing data
 xtrain, xtest, ytrain, ytest = train_test_split(x, y, train_size= 0.2)
