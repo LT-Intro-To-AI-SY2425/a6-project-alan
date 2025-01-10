@@ -28,4 +28,4 @@ for index in range(len(xtest)):
     actual = ytest[index]
     predicted_y = predict[index]
     x_coord = xtest[index]
-    print(f"CO AQI Value: {x_coord[2]} Ozone AQI Value: {x_coord[3]} NO2 AQI Value: {x_coord[3]} PM2.5 AQI Value: {x_coord[4]}")
+    print(f"CO AQI Value: {x_coord[2]} Ozone AQI Value: {x_coord[3]} NO2 AQI Value: {x_coord[3]} PM2.5 AQI Value: {x_coord[4]} Actual: {actual} Predicted: {predicted_y}")
